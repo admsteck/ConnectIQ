@@ -1,0 +1,4 @@
+<menu id="MainMenu" title="@Strings.AppName">
+    <menu-item id="Item1">Item1</menu-item>
+    <menu-item id="Item2">Item2</menu-item>
+</menu>
