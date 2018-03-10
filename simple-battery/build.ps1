@@ -23,5 +23,5 @@ if ($Deploy) {
 }
 
 if ($Publish) {
-
+    monkeyc -e -f .\monkey.jungle -o bin/simple-battery.iq -y C:\connectiq-sdk-win-2.4.3\developer_key.der
 }
