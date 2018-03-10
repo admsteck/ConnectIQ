@@ -21,6 +21,6 @@ class BatteryWidget extends App.AppBase
     // Return the initial view of your application here
     function getInitialView() {
         //The initial view is located at index 0
-        return [new MainView(), new MainViewDelegate()];
+        return [new MainView()];
     }
 }
