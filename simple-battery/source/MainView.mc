@@ -6,9 +6,9 @@ class MainView extends Ui.View {
 
     hidden var _arc;
     hidden var _goodColor = Gfx.COLOR_GREEN;
-    hidden var _warnPercent = .5;
+    hidden var _warnPercent = .4;
     hidden var _warnColor = Gfx.COLOR_YELLOW;
-    hidden var _dangerPercent = .25;
+    hidden var _dangerPercent = .2;
     hidden var _dangerColor = Gfx.COLOR_RED;
 
     function initialize() {
