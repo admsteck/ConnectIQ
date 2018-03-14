@@ -23,8 +23,10 @@ class MainView extends Ui.View {
     function onUpdate(dc) {
         var color = _goodColor;
         var sysStats = Sys.getSystemStats(); 
-        var battPercent = (sysStats.battery / 100);
-        var battText = sysStats.battery.format("%0.0f") + "%";
+        var battValue = sysStats.battery;
+        battValue = Math.floor(battValue);
+        var battPercent = (battValue / 100);
+        var battText = battValue.format("%0.0f") + "%";
         
         if(battPercent < _warnPercent)
         {
